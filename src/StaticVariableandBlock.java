@@ -5,19 +5,22 @@
 
 public class StaticVariableandBlock {
 
-    static int a=100,b=20;//Static Variable
+    static int c=100;//Static Variable
+    static  int d;
 
-    public StaticVariableandBlock(){
-        int sum=a+b;
-        System.out.println("Sum is " + sum );
+    static  void StaticVariableandBlock(int a){
+       System.out.println("Value of a is " + a );
+        System.out.println("value of d="+d);
         }
     //Static Block
     static{
         System.out.println("Inside the Static Block");
+        d=c*5;
     }
 
     public static void main(String[] args) {
         StaticVariableandBlock d2s= new StaticVariableandBlock();
+        StaticVariableandBlock(100);
 
     }
 

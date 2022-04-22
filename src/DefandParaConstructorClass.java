@@ -3,12 +3,12 @@
 
  * */
 
-
-public class DefandParaConstructorClass {
+public class DefandParaConstructorClass
+{
     public int a1,b1;
     public DefandParaConstructorClass()
     {
-        System.out.println("Defult constructor called ");
+        System.out.println("Default constructor called ");
     }
     public DefandParaConstructorClass(int a ,int b )
     {
@@ -17,7 +17,8 @@ public class DefandParaConstructorClass {
             int add=a1+b1;
         System.out.println("addition"+add);
     }
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         DefandParaConstructorClass dpc=new DefandParaConstructorClass();
         DefandParaConstructorClass dpc1=new DefandParaConstructorClass(10,20);
 
